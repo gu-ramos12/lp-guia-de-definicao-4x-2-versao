@@ -96,8 +96,18 @@ export function OfferSection() {
                       </div>
                     </div>
                     
-                    <Button size="lg" className="w-full bg-green-500 hover:bg-green-600 text-black py-4 text-lg">
-                      🚀 QUERO COMEÇAR AGORA
+                    <Button 
+                      asChild
+                      size="lg" 
+                      className="w-full bg-green-500 hover:bg-green-600 text-black py-4 text-lg"
+                    >
+                      <a 
+                        href="https://payfast.greenn.com.br/138970"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        🚀 QUERO COMEÇAR AGORA
+                      </a>
                     </Button>
                     
                     <div className="text-center space-y-2">
