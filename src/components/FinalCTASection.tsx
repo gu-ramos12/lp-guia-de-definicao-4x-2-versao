@@ -11,8 +11,18 @@ export function FinalCTASection() {
           Faça parte do Rodrigo Brasileiro Team e comece hoje!
         </p>
         
-        <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white text-2xl py-6 px-12 mb-6">
-          QUERO O GUIA POR R$ 147,00
+        <Button 
+          asChild
+          size="lg" 
+          className="bg-green-500 hover:bg-green-600 text-white text-2xl py-6 px-12 mb-6"
+        >
+          <a 
+            href="https://payfast.greenn.com.br/138970"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            QUERO O GUIA POR R$ 147,00
+          </a>
         </Button>
         
         {/* Mini-selos */}
