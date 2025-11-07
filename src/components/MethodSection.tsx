@@ -113,8 +113,18 @@ export function MethodSection() {
         </div>
         
         <div className="text-center">
-          <Button size="lg" className="bg-green-500 hover:bg-green-600 text-black text-lg px-8 py-4">
-            Quero começar por R$ 147,00
+          <Button 
+            asChild
+            size="lg" 
+            className="bg-green-500 hover:bg-green-600 text-black text-lg px-8 py-4"
+          >
+            <a 
+              href="https://payfast.greenn.com.br/138970"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Quero começar por R$ 147,00
+            </a>
           </Button>
         </div>
       </div>
