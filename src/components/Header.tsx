@@ -23,15 +23,19 @@ export function Header() {
           </a>
         </nav>
         
-      <Button 
-  asChild
-  className="bg-green-500 hover:bg-green-600 text-black"
->
-  <a 
-    href="https://pay.hotmart.com/XXXXXXXXX"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Adquirir Agora
-  </a>
-</Button>
+        <Button 
+          asChild
+          className="bg-green-500 hover:bg-green-600 text-black"
+        >
+          <a 
+            href="https://payfast.greenn.com.br/138970"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Adquirir Agora
+          </a>
+        </Button>
+      </div>
+    </header>
+  );
+}
