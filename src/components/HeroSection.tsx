@@ -54,8 +54,18 @@ export function HeroSection() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-green-500 hover:bg-green-600 text-black text-lg px-8 py-4">
-              Começar Transformação
+            <Button 
+              asChild
+              size="lg" 
+              className="bg-green-500 hover:bg-green-600 text-black text-lg px-8 py-4"
+            >
+              <a 
+                href="https://payfast.greenn.com.br/138970"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Começar Transformação
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition-all duration-300 text-lg px-8 py-4">
               Ver Resultados
