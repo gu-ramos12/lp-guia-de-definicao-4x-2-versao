@@ -27,7 +27,7 @@ export function OfferSection() {
             ⚡ Oferta Limitada
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Transforme seu corpo em <span className="text-green-600">apenas 8 semanas</span>
+            Veja a transformação em seu corpo <span className="text-green-600">logo nas primeiras semanas</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Aproveite esta oportunidade única e comece sua transformação hoje mesmo!
